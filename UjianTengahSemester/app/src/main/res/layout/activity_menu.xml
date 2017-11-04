@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#766c33"
+    tools:context="com.example.root.ujiantengahsemester.MainActivity">
+
+    <Button
+        android:id="@+id/btnentry"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="25dp"
+        android:text="Entry Data Quiz"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnplay"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="Play Quiz"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnscore"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="High Score"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnabout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="About"
+        android:textStyle="bold"/>
+
+</LinearLayout>
